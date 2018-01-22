@@ -1,0 +1,19 @@
+{
+  "name": "project-lvl1-s220",
+  "version": "1.0.0",
+  "description": "hexlet projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmz1net/project-lvl1-s220.git"
+  },
+  "author": "Vladimir Zhirnov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vmz1net/project-lvl1-s220/issues"
+  },
+  "homepage": "https://github.com/vmz1net/project-lvl1-s220#readme"
+}
