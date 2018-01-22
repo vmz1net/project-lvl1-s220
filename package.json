@@ -1,11 +1,19 @@
 {
-  "name": "project-lvl1-s220",
-  "version": "1.0.0",
+  "name": "hexlet_lvl1_s220",
+  "version": "2.0.1",
   "description": "hexlet projects",
   "main": "index.js",
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "jest",
-    "babel-node": "babel-node"
+    "test": "test",
+    "babel-node": "babel-node",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
