@@ -1,0 +1,26 @@
+{
+  "name": "project-lvl1-s220",
+  "version": "1.0.0",
+  "description": "hexlet projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "babel-node": "babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmz1net/project-lvl1-s220.git"
+  },
+  "author": "Vladimir Zhirnov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vmz1net/project-lvl1-s220/issues"
+  },
+  "homepage": "https://github.com/vmz1net/project-lvl1-s220#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
