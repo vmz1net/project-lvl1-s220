@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import index from '..';
+import { hello, answer } from '..';
 
-export default index;
+hello();
+answer();
