@@ -1,10 +1,11 @@
 {
   "name": "hexlet_lvl1_s220",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "hexlet projects",
   "main": "index.js",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
   },
   "files": [
     "dist"
