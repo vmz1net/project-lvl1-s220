@@ -15,9 +15,4 @@ publish:
 	npm publish
 
 lint:
-	npm run eslint .
-
-publish:
-	npm publish
-
-.PHONY: test
+	npm run eslint
