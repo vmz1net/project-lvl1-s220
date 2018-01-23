@@ -8,11 +8,8 @@ build:
 	rm -rf dist
 	npm run build
 
-test:
-	npm test
-
 publish:
 	npm publish
 
 lint:
-	npm run eslint
+	npm run eslint ./src
