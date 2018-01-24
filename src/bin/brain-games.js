@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-import { hello, answer } from '..';
+import startGames from '../games/games';
 
-hello();
-answer();
+startGames();
