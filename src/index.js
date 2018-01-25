@@ -10,13 +10,14 @@ export default (data, task) => {
   for (let i = 0; i < 3; i += 1) {
     const { question, answer } = data();
     const numStr = String(question);
+    const answerStr = String(answer);
     console.log(`Question: ${numStr}`);
     const quest = readlineSync.question('Your answer: ');
     const answerUser = String(quest);
-    if (answerUser === answer) {
+    if (answerUser === answerStr) {
       console.log('Correct!\n');
     } else {
-      console.log(`'${answerUser}' is wrong answer ;(. Correct answer was '${answer}.`);
+      console.log(`'${answerUser}' is wrong answer ;(. Correct answer was '${answerStr}.`);
       console.log(`Let's try again, ${userName}!\n`);
       return;
     }

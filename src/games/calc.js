@@ -1,5 +1,4 @@
 import startGame from '..';
-
 import random from '../random';
 
 const task = 'What is the result of the expression?';
